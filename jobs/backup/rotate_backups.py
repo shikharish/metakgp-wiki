@@ -44,4 +44,4 @@ for file in files:
         client.files_delete(file.path_display)
         counter += 1
 
-print(counter + " backup file(s) successfully deleted.")
+print(f"{counter} backup file(s) successfully deleted.")
